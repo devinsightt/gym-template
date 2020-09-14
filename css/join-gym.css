@@ -79,91 +79,22 @@ header nav ul li a:hover
 	margin-top: 5px;
 	width: 100%;
 	height: 350px;
+
 }
 
-
-.join-plans-heading h1
+.after-join 
 {
-	text-align: center;
-	font-size: 2.4rem;
+	margin-left: 300px;
+	margin-right:  300px;
 }
 
-.join-plans
-{
-	width: 100%;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	padding-left:  50px;
-}
-
-
-.join-plans .options
-{
-	margin-right: 50px;
-	border:2px solid blue;
-	text-align: center;
-	position: relative;
-	padding: 0 10px 0 10px;
-	background-color: yellow;
-}
-
-.join-plans .options h1
-{
-	color: white;
-	background-color: red;
-	padding: 5px;
-	padding-left: 5px;
-	padding-right: 5px;
-	border-radius: 50%;
-	position: absolute;
-	left: 50%;
-	top: -20%;
-	transform: translate(-50%, +50%);
-}
-
-.join-plans .options h3
+.after-join h2
 {
 	color: blue;
-	font-size: 1.8rem;
-}
-
-
-.join-plans .options p
-{
-	font-size: 1.1rem;
-}
-
-.join-plans .options button
-{
-	padding: 10px;
-	padding-left: 17px;
-	padding-right:17px;
-	border-radius: 50%;
-	background-color: red;
-	border-style: none;
-	position: absolute;
-	right: 30%;
-	bottom: -6%;
-	/*transform: translate(-50%, +50%);*/
-
-
-}
-
-
-.join-plans .options button a
-{
-    text-align: center;
-	font-size: 1.3rem;
-	text-decoration: none;
-	color: white;
-}
-
-.join-plans .options button a:hover
-{
-	font-size: 1.6rem;
-	transform: all;
-	transform-style: all;
+	font-size: 2rem;
+	border:1px solid blue;
+	padding: 50px;
+	
 }
 
 
@@ -181,3 +112,4 @@ footer
 	text-align: center;
 
 }
+
