@@ -74,14 +74,21 @@ header nav ul li a:hover
 	color: red;
 }
 
-.midimage img
+/*.midimage img
 {
 	margin-top: 5px;
 	width: 100%;
 	height: 350px;
 }
+*/
+[data-component="slideshow"] .slide {
+    display: none;
+  }
 
-
+  [data-component="slideshow"] .slide.active {
+    display: block;
+  }
+  
 .join-plans-heading h1
 {
 	text-align: center;
