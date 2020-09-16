@@ -8,7 +8,7 @@ body
 {
 	margin: 0; padding: 0;
 	/*width: 100%;*/
-	background-color: pink;
+	background-color: white;
 	position: relative;
 }
 
@@ -19,7 +19,7 @@ header
 	color: white;
 	/*position: absolute;*/
 	/*top: 0;*/
-	background-color: red;
+	background-color: blueviolet;
 	display: flex;
 	justify-content: space-between;
 	word-spacing: 50px;
@@ -56,7 +56,7 @@ header nav ul li a
 	font-size: xx-large;
 	/*font-style: none;*/
 	/*direction: ltr;*/
-	color: white;
+	color: black;
 	float: right;
 	margin-right: 40px;
 	text-decoration: none;
@@ -69,9 +69,9 @@ header nav ul li a
 header nav ul li a:hover
 {
 	font-size: 2.5rem;
-	border-bottom: 1px solid gold;
-	background-color: white;
-	color: red;
+	border-bottom: 1px solid black;
+	background-color: blueviolet;
+	color: black;
 }
 
 .midimage img
@@ -90,9 +90,9 @@ header nav ul li a:hover
 
 .after-join h2
 {
-	color: blue;
+	color: black;
 	font-size: 2rem;
-	border:1px solid blue;
+	border:1px solid black;
 	padding: 50px;
 	
 }
@@ -104,7 +104,7 @@ footer
 	margin-top: 100px;
 	width: 100%;
 	height: 30px;
-	background-color: red;
+	background-color: blueviolet;
 	padding-bottom: 50px;
 	position: absolute;
 	bottom: 0;
