@@ -138,7 +138,8 @@ header nav ul li a:hover
 
 .join-plans .options p
 {
-	font-size: 1.1rem;
+	font-size: 1.0rem;
+	width: 90px;
 }
 
 .join-plans .options button
